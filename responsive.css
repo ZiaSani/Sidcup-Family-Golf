@@ -1,0 +1,738 @@
+@media (max-width:600px) {
+
+    .cursor,
+    .cursor-blur {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+        gap: 0;
+        padding: 0 3.5vw;
+    }
+
+    nav #nav-menu-icon {
+        height: 45px;
+        display: block;
+    }
+
+    nav #logo {
+        height: 55px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .main {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.35);
+    }
+
+    .page01 {
+        gap: 16px;
+    }
+
+    .page01 h1 {
+        font-size: 3.1vmax;
+        letter-spacing: 5px;
+        padding-top: 2.4vmax;
+    }
+
+    .page01 h1::before {
+        padding-top: 2.4vmax;
+        top: -2px;
+        left: -2.5px;
+        -webkit-text-stroke: 2px #a2ce2b;
+    }
+
+    .page01 h2 {
+        font-size: 1.4vmax;
+    }
+
+    .page01 h6 {
+        line-height: 1.8vmax;
+        font-weight: 100;
+        font-size: 1.2vmax;
+        padding: 0 5.5vw;
+    }
+
+    .scroller {
+        /* background-color: rebeccapurple; */
+        padding: 3vw 0;
+    }
+
+    .scroll-container h4 {
+        font-size: 4vmax;
+    }
+
+    .about-section {
+        position: relative;
+        padding: 2vw 3.5vw;
+        /* background-color: rebeccapurple; */
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .img-container {
+        height: 18vh;
+        margin-bottom: 0px;
+        /* background-color: rebeccapurple; */
+    }
+
+    .img-container img {
+        border-radius: 12px;
+        height: 100%;
+        width: 48%;
+    }
+
+    #right-img {
+        height: 100%;
+    }
+
+    .center-text {
+        margin-top: 100px;
+        /* background-color: rebeccapurple; */
+        width: 100%;
+        position: relative;
+        transform: translate(-50%, -50%);
+    }
+
+    .center-text h4 {
+        font-size: 2.3vmax;
+        padding-bottom: 15px;
+    }
+
+    .center-text h6 {
+        font-size: 1.2vmax;
+        line-height: 1.9vmax;
+        padding: 0 1vmax;
+        padding-bottom: 20px;
+    }
+
+    .center-text p {
+        font-size: .9vw;
+        font-weight: 100;
+        font-family: "monst-500";
+        display: none;
+    }
+
+    .cards-container {
+        padding-bottom: 2vmax;
+        height: 60%;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .card {
+        height: 100%;
+        width: 100%;
+    }
+
+    .overlay {
+        padding: 2vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .overlay h4 {
+        font-size: 2.2vmax;
+        padding-bottom: 2vw;
+    }
+
+    .overlay p {
+        font-size: 1.1vmax;
+        padding-bottom: 0vw;
+        line-height: 1.8vmax;
+    }
+
+    .sign-up-section {
+        height: 100%;
+        width: 100%;
+    }
+
+    .sign-up-section img {
+        width: 12%;
+        z-index: 1;
+    }
+
+    .sign-up-section h4 {
+        font-size: 1.6vmax;
+        line-height: 2.3vmax;
+        z-index: 10;
+    }
+
+    .page03 {
+        height: 30vh;
+        width: 100%;
+    }
+
+    .page03>p {
+        width: 80%;
+        font-size: 2vmax;
+        line-height: 2.8vmax;
+        /* background-color: rebeccapurple; */
+    }
+
+    .page03>img {
+        height: 30px;
+        position: absolute;
+    }
+
+    #coln-1 {
+        left: 2%;
+        top: 10%;
+    }
+
+    #coln-2 {
+        right: 3%;
+        bottom: 15%;
+    }
+
+    .waiting-section {
+        padding: 6vw 0vw;
+        padding-bottom: 1.7vw;
+    }
+
+    .text-headline h2 {
+        font-size: 2.8vmax;
+        color: #9ecc20;
+        -webkit-text-stroke: 0px #9ecc20;
+        /* white-space: nowrap; */
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #inner-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        margin-top: -18px;
+    }
+
+    .cards {
+        width: 100%;
+        padding: 6.5vmax 4vmax;
+        color: #fff;
+    }
+
+    #card-01::before,
+    .cards:hover::before {
+        display: none;
+        /* Disable the effect */
+    }
+
+    .cards h4 {
+        color: #fff;
+        font-size: 1.7vmax;
+    }
+
+
+    #card-01 {
+        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-toptracer-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+    }
+
+    #card-02 {
+        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-lessons-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+    }
+
+    #card-03 {
+        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-ag-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+    }
+
+    .footer {
+        /* padding: 2vw 6.5vw; */
+        padding: 2vmax;
+    }
+
+    .footer #bg-pattern {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 95%;
+        width: 40%;
+    }
+
+    #footer-top {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #footer-top .logo img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .footer-links {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: red; */
+        gap: 0px;
+    }
+
+    .footer-links h4 {
+        font-size: 1.4vmax;
+        letter-spacing: 1px;
+        line-height: 1.9vmax;
+    }
+
+    .footer-inner-3 h4 {
+        font-size: 1.3vmax;
+    }
+
+    .footer-links h6 {
+        font-size: 1vmax;
+        line-height: 1.4vmax;
+        padding-bottom: 5px;
+    }
+
+    .footer-inner-3 {
+        padding-top: 15px;
+    }
+
+    #footer-btm {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    #footer-btm .f-left {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .f-left h6 {
+        font-size: 1.1vmax;
+        padding-bottom: 5px;
+    }
+
+    .f-left a {
+        font-size: 1vmax;
+    }
+
+    .f-right h6 {
+        font-size: 1vmax;
+    }
+
+    #card-01:hover {
+        background-image: url('');
+    }
+
+    #card-02:hover {
+        background-image: url('');
+    }
+
+    #card-03:hover {
+        background-image: url('');
+    }
+}
+
+@media (max-width:1020px) {
+
+    .cursor,
+    .cursor-blur {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+        gap: 0;
+        padding: 0 6vmax;
+    }
+
+    nav #nav-menu-icon {
+        height: 45px;
+        display: block;
+    }
+
+    nav #logo {
+        height: 55px;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .main {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.45);
+    }
+
+    .page01 {
+        gap: 1.2vmax;
+    }
+
+    .page01 h1 {
+        font-size: 6.5vmax;
+        letter-spacing: 5px;
+        padding-top: 2.4vmax;
+    }
+
+    .page01 h1::before {
+        padding-top: 2.4vmax;
+        top: -4px;
+        left: -3.5px;
+        -webkit-text-stroke: 2px #a2ce2b;
+    }
+
+    .page01 h2 {
+        font-size: 2.2vmax;
+    }
+
+    .page01 h6 {
+        line-height: 2.8vmax;
+        font-weight: 100;
+        font-size: 1.8vmax;
+        padding: 0 14.2vmax;
+    }
+
+    .scroller {
+        /* background-color: rebeccapurple; */
+        padding: 3vw 0;
+    }
+
+    .scroll-container h4 {
+        font-size: 6.2vmax;
+    }
+
+    .about-section {
+        position: relative;
+        padding: 2vmax 6vmax;
+        /* background-color: rebeccapurple; */
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .img-container {
+        height: 50vh;
+        margin-bottom: 0px;
+        /* background-color: rebeccapurple; */
+    }
+
+    .img-container img {
+        border-radius: 12px;
+        height: 100%;
+        width: 48%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #right-img {
+        height: 100%;
+    }
+
+    .center-text {
+        margin-top: 12vmax;
+        /* background-color: rebeccapurple; */
+        width: 100%;
+        position: relative;
+        transform: translate(-50%, -50%);
+    }
+
+    .center-text h4 {
+        font-size: 4.7vmax;
+        padding-bottom: 15px;
+    }
+
+    .center-text h6 {
+        font-size: 2vmax;
+        line-height: 2.6vmax;
+        padding: 0 1vmax;
+        padding-bottom: 2vmax;
+    }
+
+    .center-text p {
+        font-size: 1.6vmax;
+        /* display: none; */
+    }
+
+    .cards-container {
+        padding: 0 6vmax;
+        padding-bottom: 4vmax;
+        height: 80vmax;
+        flex-direction: column;
+        gap: 2.4vmax;
+        /* background-color: rebeccapurple; */
+    }
+
+    .card {
+        height: 100%;
+        width: 100%;
+    }
+
+    .overlay {
+        padding: 3vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .overlay h4 {
+        font-size: 3.2vmax;
+        padding-bottom: 1.2vmax;
+    }
+
+    .overlay p {
+        font-size: 1.7vmax;
+        padding-bottom: 0vw;
+        line-height: 2.2vmax;
+    }
+
+    .sign-up-section {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .sign-up-section img {
+        /* height: 80%; */
+        width: 7.2%;
+        scale: 2.4;
+        z-index: 1;
+    }
+
+    .sign-up-section h4 {
+        font-size: 2.2vmax;
+        line-height: 3vmax;
+        z-index: 10;
+    }
+
+    .page03 {
+        height: 50vh;
+        width: 100%;
+        /* background-color: rebeccapurple; */
+    }
+
+    .page03>p {
+        width: 70%;
+        font-size: 2.7vmax;
+        line-height: 3.3vmax;
+    }
+
+    .page03>img {
+        height: 30px;
+        position: absolute;
+    }
+
+    #coln-1 {
+        left: 8%;
+        top: 17%;
+    }
+
+    #coln-2 {
+        right: 10%;
+        bottom: 20%;
+    }
+
+    .waiting-section {
+        padding: 6vw 0vw;
+        padding-bottom: 1.7vw;
+        /* background-color: rebeccapurple; */
+    }
+
+    .text-headline h2 {
+        font-size: 5.4vmax;
+        color: #9ecc20;
+        -webkit-text-stroke: 0px #9ecc20;
+        /* white-space: nowrap; */
+        overflow: auto;
+        text-align: center;
+    }
+
+    #inner-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vmax;
+        margin-top: -2.2vmax;
+    }
+
+    .cards {
+        width: 100%;
+        padding: 12vmax 0vmax;
+        color: #fff;
+    }
+
+    #card-01::before,
+    .cards:hover::before {
+        display: none;
+        /* Disable the effect */
+    }
+
+    .cards h4 {
+        color: #fff;
+        font-size: 3vmax;
+    }
+
+
+    #card-01 {
+        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-toptracer-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+    }
+
+    #card-02 {
+        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-lessons-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+    }
+
+    #card-03 {
+        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-ag-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+    }
+
+    .footer {
+        /* padding: 2vw 6.5vw; */
+        padding: 2vmax 8vmax;
+        overflow: hidden;
+    }
+
+    .footer #bg-pattern {
+        z-index: -1;
+        position: absolute;
+        top: 42%;
+        left: 0;
+        height: 60%;
+        width: 40%;
+        scale: 1.5;
+        /* background-color: red; */
+    }
+
+    #footer-top {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 2.8vmax;
+    }
+
+    #footer-top .logo img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .footer-links {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: red; */
+        gap: 0px;
+    }
+
+    .footer-links h4 {
+        font-size: 2.4vmax;
+        letter-spacing: 1px;
+        line-height: 3.2vmax;
+    }
+
+    .footer-inner-3 h4 {
+        font-size: 2.3vmax;
+    }
+
+    .footer-links h6 {
+        font-size: 1.6vmax;
+        line-height: 2.1vmax;
+        padding-bottom: 5px;
+    }
+
+    .footer-inner-3 {
+        padding-top: 30px;
+        /* background-color: red; */
+    }
+
+    #footer-btm {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    #footer-btm .f-left {
+        gap: 4px;
+    }
+
+    .f-left h6 {
+        font-size: 1.3vmax;
+    }
+
+    .f-left a {
+        font-size: 1.4vmax;
+    }
+
+    .f-right h6 {
+        padding-top: 4vmax;
+        font-size: 1.3vmax;
+    }
+
+
+
+    #card-01:hover {
+        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-toptracer-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+    }
+
+    #card-02:hover {
+        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-lessons-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+    }
+
+    #card-03:hover {
+        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-ag-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1");
+    }
+}
+
+@media (max-width:1500px) {
+    .cursor{
+        display: none;
+    }
+    .cursor-blur{
+        display:none
+    }
+    .center-text h6 {
+        font-size: 1.7vmax;
+        line-height: 2.6vmax;
+        padding-bottom: .6vmax;
+    }
+
+    .center-text p {
+        font-size: 1.6vmax;
+        /* display: none; */
+    }
+
+    .cards-container {
+        height: 75vh;
+        gap: 1.2vmax;
+        padding: 1vw 2vw;
+    }
+
+    .card {
+        height: 80%;
+        width: 30%;
+    }
+
+    .overlay h4 {
+        color: #000;
+        font-size: 2.3vw;
+        font-family: "monst-900";
+        text-transform: uppercase;
+        white-space: nowrap;
+        padding-bottom: 2vw;
+    }
+
+    .overlay p {
+        color: #000;
+        font-size: 1.1vw;
+        font-family: "monst-500";
+        padding-bottom: 2vw;
+        line-height: 1.6vw;
+    }
+
+    .page03>img {
+        height: 3.2vmax;
+      }
+}
