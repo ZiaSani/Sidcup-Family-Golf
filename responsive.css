@@ -687,12 +687,7 @@
 }
 
 @media (max-width:1500px) {
-    .cursor{
-        display: none;
-    }
-    .cursor-blur{
-        display:none
-    }
+
     .center-text h6 {
         font-size: 1.7vmax;
         line-height: 2.6vmax;
