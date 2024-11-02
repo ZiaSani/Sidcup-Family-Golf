@@ -126,9 +126,9 @@ OnHoverElements.forEach(function (elem) {
   });
 });
 
-gsap.to(".scroll-container h4", {
-  x: -30000, // Move the text to the left
-  duration: 140, // Time it takes to scroll across
+gsap.to(".scroll-container ", {
+  x: -3000, // Move the text to the left
+  duration: 14, // Time it takes to scroll across
   yoyo:true,
   ease: "linear", // Keeps the movement consistent
   repeat: -1, // Infinite loop
