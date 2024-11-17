@@ -7,7 +7,7 @@ const OnHoverElements = document.querySelectorAll(
 
 gsap.to("nav", {
   backgroundColor: "black", // Animate background color change
-  height: "110px", // Animate height change
+  height: "100px", // Animate height change
   duration: 0.3, // Duration of the animation
   scrollTrigger: {
     trigger: "nav", // What element should trigger this animation

@@ -34,27 +34,36 @@
     }
 
     .page01 h1 {
-        font-size: 3.1vmax;
+        font-size: 6.1vmax;
         letter-spacing: 5px;
         padding-top: 2.4vmax;
     }
 
     .page01 h1::before {
         padding-top: 2.4vmax;
-        top: -2px;
+        top: -3px;
         left: -2.5px;
         -webkit-text-stroke: 2px #a2ce2b;
     }
 
     .page01 h2 {
-        font-size: 1.4vmax;
+        font-size: 2.4vmax;
     }
 
     .page01 h6 {
-        line-height: 1.8vmax;
+        line-height: 2.8vmax;
         font-weight: 100;
-        font-size: 1.2vmax;
+        font-size: 2.2vmax;
         padding: 0 5.5vw;
+    }
+
+    .arrow-icon {
+        padding: 3.5vmax;
+        left: 2%;
+    }
+
+    .arrow-icon i {
+        font-size: 3vmax;
     }
 
     .scroller {
@@ -101,27 +110,28 @@
     }
 
     .center-text h4 {
-        font-size: 2.3vmax;
+        font-size: 3vmax;
         padding-bottom: 15px;
     }
 
     .center-text h6 {
-        font-size: 1.2vmax;
-        line-height: 1.9vmax;
-        padding: 0 1vmax;
+        font-size: 2vmax !important;
+        line-height: 3.2vmax !important;
+        padding: 0 !important;
         padding-bottom: 20px;
     }
 
     .center-text p {
-        font-size: .9vw;
+        font-size: 1.9vw !important;
         font-weight: 100;
         font-family: "monst-500";
-        display: none;
+        margin-top: 2vw;
+        /* display: none; */
     }
 
     .cards-container {
         padding-bottom: 2vmax;
-        height: 60%;
+        height: 90vh !important;
         flex-direction: column;
         gap: 2vw;
     }
@@ -139,14 +149,14 @@
     }
 
     .overlay h4 {
-        font-size: 2.2vmax;
+        font-size: 2.4vmax !important;
         padding-bottom: 2vw;
     }
 
     .overlay p {
-        font-size: 1.1vmax;
+        font-size: 1.6vmax !important;
         padding-bottom: 0vw;
-        line-height: 1.8vmax;
+        line-height: 2.4vmax;
     }
 
     .sign-up-section {
@@ -160,8 +170,8 @@
     }
 
     .sign-up-section h4 {
-        font-size: 1.6vmax;
-        line-height: 2.3vmax;
+        font-size: 2vmax;
+        line-height: 2.6vmax;
         z-index: 10;
     }
 
@@ -198,7 +208,7 @@
     }
 
     .text-headline h2 {
-        font-size: 2.8vmax;
+        font-size: 5vmax;
         color: #9ecc20;
         -webkit-text-stroke: 0px #9ecc20;
         /* white-space: nowrap; */
@@ -207,6 +217,9 @@
     }
 
     #inner-container {
+        height: 80vw;
+        width: 90vw;
+        margin-left: 2vw;
         flex-direction: column;
         justify-content: center;
         gap: 12px;
@@ -227,7 +240,7 @@
 
     .cards h4 {
         color: #fff;
-        font-size: 1.7vmax;
+        font-size: 4vmax;
     }
 
 
@@ -278,18 +291,18 @@
     }
 
     .footer-links h4 {
-        font-size: 1.4vmax;
+        font-size: 2.4vmax;
         letter-spacing: 1px;
-        line-height: 1.9vmax;
+        line-height: 3.2vmax;
     }
 
     .footer-inner-3 h4 {
-        font-size: 1.3vmax;
+        font-size: 2vmax;
     }
 
     .footer-links h6 {
-        font-size: 1vmax;
-        line-height: 1.4vmax;
+        font-size: 1.5vmax;
+        line-height: 1.8vmax;
         padding-bottom: 5px;
     }
 
@@ -312,16 +325,16 @@
     }
 
     .f-left h6 {
-        font-size: 1.1vmax;
+        font-size: 1.5vmax;
         padding-bottom: 5px;
     }
 
     .f-left a {
-        font-size: 1vmax;
+        font-size: 1.5vmax;
     }
 
     .f-right h6 {
-        font-size: 1vmax;
+        font-size: 1.4vmax;
     }
 
     #card-01:hover {
@@ -337,17 +350,19 @@
     }
 }
 
-@media (max-width:1020px) {
+@media (min-width: 600px) and (max-width: 1020px) {
 
+    /* Cursor Styles */
     .cursor,
     .cursor-blur {
         display: none;
     }
 
+    /* Navigation Styles */
     nav {
         justify-content: space-between;
         gap: 0;
-        padding: 0 6vmax;
+        padding: 0 4vmax;
     }
 
     nav #nav-menu-icon {
@@ -363,17 +378,19 @@
         display: none;
     }
 
+    /* Main Section */
     .main {
         position: relative;
         background-color: rgba(0, 0, 0, 0.45);
     }
 
+    /* Page 01 Styles */
     .page01 {
         gap: 1.2vmax;
     }
 
     .page01 h1 {
-        font-size: 6.5vmax;
+        font-size: 6.6vmax;
         letter-spacing: 5px;
         padding-top: 2.4vmax;
     }
@@ -386,29 +403,29 @@
     }
 
     .page01 h2 {
-        font-size: 2.2vmax;
+        font-size: 2.8vmax;
     }
 
     .page01 h6 {
-        line-height: 2.8vmax;
+        line-height: 3vmax;
         font-weight: 100;
-        font-size: 1.8vmax;
-        padding: 0 14.2vmax;
+        font-size: 2.2vmax;
+        padding: 0 10vmax;
     }
 
+    /* Scroller Styles */
     .scroller {
-        /* background-color: rebeccapurple; */
-        padding: 3vw 0;
+        padding: 5vw 0;
     }
 
     .scroll-container h4 {
-        font-size: 6.2vmax;
+        font-size: 7.2vmax;
     }
 
+    /* About Section */
     .about-section {
         position: relative;
         padding: 2vmax 6vmax;
-        /* background-color: rebeccapurple; */
         z-index: 10;
         display: flex;
         flex-direction: column;
@@ -418,7 +435,6 @@
     .img-container {
         height: 50vh;
         margin-bottom: 0px;
-        /* background-color: rebeccapurple; */
     }
 
     .img-container img {
@@ -433,9 +449,9 @@
         height: 100%;
     }
 
+    /* Center Text */
     .center-text {
         margin-top: 12vmax;
-        /* background-color: rebeccapurple; */
         width: 100%;
         position: relative;
         transform: translate(-50%, -50%);
@@ -455,16 +471,15 @@
 
     .center-text p {
         font-size: 1.6vmax;
-        /* display: none; */
     }
 
+    /* Cards Container */
     .cards-container {
         padding: 0 6vmax;
         padding-bottom: 4vmax;
         height: 80vmax;
         flex-direction: column;
         gap: 2.4vmax;
-        /* background-color: rebeccapurple; */
     }
 
     .card {
@@ -486,10 +501,10 @@
 
     .overlay p {
         font-size: 1.7vmax;
-        padding-bottom: 0vw;
         line-height: 2.2vmax;
     }
 
+    /* Sign Up Section */
     .sign-up-section {
         height: 100%;
         width: 100%;
@@ -497,7 +512,6 @@
     }
 
     .sign-up-section img {
-        /* height: 80%; */
         width: 7.2%;
         scale: 2.4;
         z-index: 1;
@@ -509,16 +523,16 @@
         z-index: 10;
     }
 
+    /* Page 03 */
     .page03 {
         height: 50vh;
         width: 100%;
-        /* background-color: rebeccapurple; */
     }
 
     .page03>p {
-        width: 70%;
-        font-size: 2.7vmax;
-        line-height: 3.3vmax;
+        width: 80%;
+        font-size: 2.9vmax;
+        line-height: 3.7vmax;
     }
 
     .page03>img {
@@ -527,30 +541,30 @@
     }
 
     #coln-1 {
-        left: 8%;
-        top: 17%;
+        left: 4%;
+        top: 10%;
     }
 
     #coln-2 {
-        right: 10%;
-        bottom: 20%;
+        right: 4%;
+        bottom: 14%;
     }
 
+    /* Waiting Section */
     .waiting-section {
         padding: 6vw 0vw;
         padding-bottom: 1.7vw;
-        /* background-color: rebeccapurple; */
     }
 
     .text-headline h2 {
-        font-size: 5.4vmax;
+        font-size: 5.2vmax;
         color: #9ecc20;
         -webkit-text-stroke: 0px #9ecc20;
-        /* white-space: nowrap; */
         overflow: auto;
         text-align: center;
     }
 
+    /* Inner Container */
     #inner-container {
         flex-direction: column;
         justify-content: center;
@@ -558,39 +572,20 @@
         margin-top: -2.2vmax;
     }
 
+    /* Cards */
     .cards {
         width: 100%;
         padding: 12vmax 0vmax;
         color: #fff;
     }
 
-    #card-01::before,
-    .cards:hover::before {
-        display: none;
-        /* Disable the effect */
-    }
-
     .cards h4 {
-        color: #fff;
-        font-size: 3vmax;
+        font-size: 6vmax;
     }
 
-
-    #card-01 {
-        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-toptracer-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1");
-    }
-
-    #card-02 {
-        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-lessons-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1");
-    }
-
-    #card-03 {
-        background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-ag-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1");
-    }
-
+    /* Footer */
     .footer {
-        /* padding: 2vw 6.5vw; */
-        padding: 2vmax 8vmax;
+        padding: 2vmax 4vmax;
         overflow: hidden;
     }
 
@@ -602,7 +597,6 @@
         height: 60%;
         width: 40%;
         scale: 1.5;
-        /* background-color: red; */
     }
 
     #footer-top {
@@ -621,7 +615,6 @@
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        /* background-color: red; */
         gap: 0px;
     }
 
@@ -643,7 +636,6 @@
 
     .footer-inner-3 {
         padding-top: 30px;
-        /* background-color: red; */
     }
 
     #footer-btm {
@@ -655,7 +647,7 @@
     }
 
     #footer-btm .f-left {
-        gap: 4px;
+        gap: 2px;
     }
 
     .f-left h6 {
@@ -668,11 +660,10 @@
 
     .f-right h6 {
         padding-top: 4vmax;
-        font-size: 1.3vmax;
+        font-size: 1.4vmax;
     }
 
-
-
+    /* Card Hover Effects */
     #card-01:hover {
         background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/page-toptracer-1024x683.jpg?strip=all&lossy=1&sharp=1&ssl=1");
     }
@@ -686,48 +677,3 @@
     }
 }
 
-@media (max-width:1500px) {
-
-    .center-text h6 {
-        font-size: 1.7vmax;
-        line-height: 2.6vmax;
-        padding-bottom: .6vmax;
-    }
-
-    .center-text p {
-        font-size: 1.6vmax;
-        /* display: none; */
-    }
-
-    .cards-container {
-        height: 75vh;
-        gap: 1.2vmax;
-        padding: 1vw 2vw;
-    }
-
-    .card {
-        height: 80%;
-        width: 30%;
-    }
-
-    .overlay h4 {
-        color: #000;
-        font-size: 2.3vw;
-        font-family: "monst-900";
-        text-transform: uppercase;
-        white-space: nowrap;
-        padding-bottom: 2vw;
-    }
-
-    .overlay p {
-        color: #000;
-        font-size: 1.1vw;
-        font-family: "monst-500";
-        padding-bottom: 2vw;
-        line-height: 1.6vw;
-    }
-
-    .page03>img {
-        height: 3.2vmax;
-      }
-}
